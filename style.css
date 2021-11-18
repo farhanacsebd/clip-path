@@ -1,0 +1,12 @@
+.banner {
+    clip-path: ellipse(98% 57% at 53% 1%);
+    background-color: blue;
+    padding: 15px;
+    color: white;
+    
+    transition: clip-path 3s;
+}
+
+.banner:hover {
+    clip-path: ellipse(98% 96% at 49% 82%);
+}
